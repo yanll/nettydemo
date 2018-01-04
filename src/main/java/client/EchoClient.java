@@ -47,7 +47,7 @@ public class EchoClient {
     }
 
     public static void main(String[] args) throws Exception {
-        new EchoClient("localhost", 8999, "helle, world!").start();
+        new EchoClient("10.151.31.60", 8999, "helle, world!").start();
     }
 
     public String getMessage() {

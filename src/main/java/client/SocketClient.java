@@ -19,7 +19,7 @@ public class SocketClient {
         BufferedReader is = null;
         Writer writer = null;
         try {
-            client = new Socket("localhost", 8999);
+            client = new Socket("10.151.31.60", 8999);
 
             writer = new OutputStreamWriter(client.getOutputStream());
             writer.write("Hello Server.");
